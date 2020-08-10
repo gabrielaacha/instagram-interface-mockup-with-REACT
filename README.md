@@ -1,4 +1,4 @@
-# Mockup Instagram feed
+# Mockup Instagram feed :clapper:
 
 ## Description
 
@@ -6,7 +6,8 @@
 
 ## Features
 
--
+- menu
+- film info
 
 ## Interface
 
