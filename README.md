@@ -16,7 +16,7 @@
 
 ## Technologies
 
-![react](./public/img/readme_img/react_logo.png)
+![react logo](/public/img/readme_img/react_logo.png)
 
 ## References
 
