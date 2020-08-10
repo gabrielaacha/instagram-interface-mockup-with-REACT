@@ -16,7 +16,7 @@
 
 ## Technologies
 
--![react](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+![react](./public/img/readme_img/react_logo.png)
 
 ## References
 
