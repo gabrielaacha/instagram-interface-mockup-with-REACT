@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "V2 motor",
+    "url": "./img/image1.jpg"
+  },
+  {
+    "id": 1,
+    "name": "V2 bike",
+    "url": "./img/image2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "V2 motor",
+    "url": "./img/image3.jpg"
+  },
+  {
+    "id": 3,
+    "name": "V2 motor",
+    "url": "./img/image4.jpg"
+  }
+]
