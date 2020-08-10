@@ -1,4 +1,4 @@
-# Mockup Instagram feed :clapper:
+# Mockup Instagram feed :boom:
 
 ## Description
 
@@ -7,7 +7,7 @@
 ## Features
 
 - menu
-- film info
+- grid passing images
 
 ## Interface
 
@@ -16,7 +16,7 @@
 
 ## Technologies
 
-- react
+-![react](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
 
 ## References
 
@@ -46,15 +46,10 @@ Structure
 │   └───index.js
 │   └───helpers.js
 │   └───scss
-│   │    └───main
-│   │    └───
-│   │    └───
-│   │    └───
-│   └───notes.json
-│   │    └───main
-│   └───notes.json
-│   │    └───main
-│   └───notes.json
+│        └───main
+│        └───x
+│        └───x
+│        └───x
 │
 │
 └───public
