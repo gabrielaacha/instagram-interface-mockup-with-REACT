@@ -1,4 +1,4 @@
-# Mockup Instagram feed
+# Mockup Instagram feed :boom:
 
 ## Description
 
@@ -6,7 +6,8 @@
 
 ## Features
 
--
+- menu
+- grid passing images
 
 ## Interface
 
@@ -15,7 +16,7 @@
 
 ## Technologies
 
-- react
+![react logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
 
 ## References
 
@@ -45,15 +46,10 @@ Structure
 │   └───index.js
 │   └───helpers.js
 │   └───scss
-│   │    └───main
-│   │    └───
-│   │    └───
-│   │    └───
-│   └───notes.json
-│   │    └───main
-│   └───notes.json
-│   │    └───main
-│   └───notes.json
+│        └───main
+│        └───x
+│        └───x
+│        └───x
 │
 │
 └───public
