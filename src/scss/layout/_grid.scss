@@ -38,12 +38,8 @@
     &__items {
       //   background-color: green;
       display: flex;
-      // flex-direction: column;
       justify-content: center;
       flex: 1 0 20%;
-      // background-color: white;
-      // border: blue 3px solid;
-      //   padding: 1rem;
     }
   }
 
@@ -57,9 +53,8 @@
   }
   &__image {
     width: 35rem;
-    border: black solid 1px;
-    border-radius: 10px;
-    // height: 30rem;
+    // border: black solid 1px;
+    // border-radius: 10px;
     margin: 2rem;
     display: flex;
     &:hover {
