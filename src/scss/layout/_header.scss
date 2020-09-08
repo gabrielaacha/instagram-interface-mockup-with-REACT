@@ -1,0 +1,22 @@
+.header-elements__all {
+  border: black 1px solid;
+  display: flex;
+  height: 30vh;
+  padding: 0 20rem;
+}
+
+.header-element__info {
+  width: 70vw;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-element__avatar {
+  width: 30vw;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

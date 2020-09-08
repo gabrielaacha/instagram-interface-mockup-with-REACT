@@ -4,7 +4,7 @@ import Aux from "../../../hoc/Aux";
 const headerElementAvatar = (props) => {
   return (
     <Aux>
-      <div className="header-elements__all">headerelementavatar</div>
+      <div className="header-element__avatar">headerelementavatar</div>
     </Aux>
   );
 };

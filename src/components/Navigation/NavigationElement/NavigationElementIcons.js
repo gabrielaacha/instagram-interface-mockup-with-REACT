@@ -4,7 +4,7 @@ import Aux from "../../../hoc/Aux";
 const navigationElementIcons = (props) => {
   return (
     <Aux>
-      <div className="header-elements__all">navigationElementIcons</div>
+      <div className="navigation-elements__icons">navigationElementIcons</div>
     </Aux>
   );
 };
