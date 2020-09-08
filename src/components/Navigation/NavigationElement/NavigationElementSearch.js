@@ -1,12 +1,7 @@
 import React from "react";
-import Aux from "../../../hoc/Aux";
 
 const navigationElementSearch = (props) => {
-  return (
-    <Aux>
-      <div className="navigation-elements-search">navigationElementSearch</div>
-    </Aux>
-  );
+  return <div className="navigation-elements__search">search</div>;
 };
 
 export default navigationElementSearch;

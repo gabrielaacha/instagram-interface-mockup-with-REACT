@@ -1,11 +1,10 @@
 import React from "react";
-import Aux from "../../../hoc/Aux";
 
 const navigationElementLogo = (props) => {
   return (
-    <Aux>
-      <div className="navigation-elements__logo">navigationElementLogo</div>
-    </Aux>
+    <div className="navigation-elements__logo">
+      <img src="../Instagram_logo.png" alt="insta_logo" />
+    </div>
   );
 };
 
