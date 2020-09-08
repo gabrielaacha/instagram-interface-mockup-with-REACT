@@ -8,11 +8,11 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    // justify-content: center;
+    justify-content: center;
   }
 
   &__row {
-    max-width: 114rem;
+    max-width: 80vw;
     margin: 0 auto;
     display: flex;
     // flex-direction: column;
@@ -34,15 +34,16 @@
     border: green 3px solid;
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 5rem;
+    // padding-bottom: 5rem;
     &__items {
+      background-color: green;
       display: flex;
       // flex-direction: column;
-      // align-items: center;
+      justify-content: center;
       flex: 1 0 20%;
       // background-color: white;
       // border: blue 3px solid;
-      padding: 1rem;
+      //   padding: 1rem;
     }
   }
 
@@ -55,7 +56,7 @@
     // padding: 2rem;
   }
   &__image {
-    width: 25rem;
+    width: 35rem;
     border: black solid 1px;
     border-radius: 10px;
     // height: 30rem;

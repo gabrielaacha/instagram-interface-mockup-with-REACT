@@ -7,7 +7,7 @@ const postGridElementCard = (props) => {
 
   return (
     <Aux>
-      <div className="main-grid__col-1-of-3">
+      <div className="main-grid__col-1-of-3__items">
         <img alt={name} src={url} className="main-grid__image" />
       </div>
     </Aux>
