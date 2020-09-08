@@ -1,0 +1,17 @@
+.stories-elements {
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+}
+
+.stories-elements__all {
+  border: black 1px solid;
+  display: flex;
+  width: 80vw;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.stories-elements__item {
+  margin: 10rem;
+}
