@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Grid from "./data/dataGrid.json";
 // import MenuPost from "./data/dataMenuPost.json";
 // import MenuNav from "./data/dataMenuNav.json";
-// import Stories from "./data/dataStories.json";
+import Stories from "./data/dataStories.json";
 import Aux from "./hoc/Aux";
 import HeaderElements from "./components/Header/HeaderElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
@@ -16,7 +16,7 @@ export default class App extends Component {
       data: Grid,
       // dataMenuPost: MenuPost,
       // dataMenuNav: MenuNav,
-      // dataStories: Stories,
+      dataStories: Stories,
       // filteredData: [],
     };
   }
@@ -28,7 +28,7 @@ export default class App extends Component {
       <Aux>
         <NavigationElements />
         <HeaderElements />
-        <StoriesElements />
+        <StoriesElements data={this.state.dataStories} />
         <PostGridElements data={this.state.data} />
       </Aux>
     );

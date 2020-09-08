@@ -1,0 +1,24 @@
+[
+  {
+    "id": 0,
+    "name": "pimienta_0",
+    "url": "./img/image_pimienta_0.jpg"
+  },
+  {
+    "id": 1,
+    "name": "pimienta_1",
+    "url": "./img/image_pimienta_1.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "pimienta_5",
+    "url": "./img/image_pimienta_5.jpg"
+  },
+
+  {
+    "id": 6,
+    "name": "pimienta_6",
+    "url": "./img/image_pimienta_6.jpg"
+  }
+]

@@ -9,14 +9,25 @@
   width: 70vw;
   background-color: pink;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
+  padding-left: 2rem;
 }
 
 .header-element__avatar {
   width: 30vw;
-  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: black solid 1px;
+}
+
+.header-element__avatar__content {
+  clip-path: circle(160px at 160px 160px);
+  // background-image: url("./public/img/image_pimienta_1.jpg");
+  // border: black solid 1px;
+  background-color: lightsalmon;
+  height: 20rem;
+  width: 20rem;
+  // transform: translateX(200px);
 }
