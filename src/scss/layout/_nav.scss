@@ -1,6 +1,7 @@
 .navigation-elements {
   display: flex;
   justify-content: center;
+  border-bottom: grey 1px solid;
 }
 
 .navigation-elements__all {
@@ -9,7 +10,7 @@
   align-items: center;
   height: 8vh;
   width: 80vw;
-  border: black 1px solid;
+  // border: black 1px solid;
 }
 
 .navigation-elements__search {
@@ -27,6 +28,5 @@
 .navigation-elements__icon:not(:last-child) {
   margin-right: 2rem;
 }
-
 .navigation-elements__logo {
 }
