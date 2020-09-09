@@ -23,10 +23,11 @@
 }
 
 .header-element__avatar__content {
-  clip-path: circle(160px at 160px 160px);
-  // background-image: url("./public/img/image_pimienta_1.jpg");
+  // clip-path: circle(160px at 160px 160px);
+  // background-image: url("../../image_pimienta_1.jpg");
   // border: black solid 1px;
-  background-color: lightsalmon;
+  // background-color: lightsalmon;
+  opacity: 0.5;
   height: 20rem;
   width: 20rem;
   // transform: translateX(200px);

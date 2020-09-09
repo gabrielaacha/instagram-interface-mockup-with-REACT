@@ -1,8 +1,14 @@
+.navigation-elements {
+  display: flex;
+  justify-content: center;
+}
+
 .navigation-elements__all {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 10vh;
+  width: 80vw;
   border: black 1px solid;
 }
 
@@ -11,4 +17,16 @@
   width: 20rem;
   border: grey solid 1px;
   background-color: lightgrey;
+}
+
+.navigation-elements__icon {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.navigation-elements__icon:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.navigation-elements__logo {
 }

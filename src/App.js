@@ -8,6 +8,8 @@ import HeaderElements from "./components/Header/HeaderElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
 import PostGridElements from "./components/PostGrid/PostGridElements";
 import StoriesElements from "./components/Stories/StoriesElements";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBell } from "@fortawesome/free-solid-svg-icons";
 
 export default class App extends Component {
   constructor(props) {
@@ -27,7 +29,8 @@ export default class App extends Component {
     return (
       <Aux>
         <NavigationElements />
-        <HeaderElements />
+        <FontAwesomeIcon icon={faBell} />
+        <HeaderElements data={this.state.dataStories} />
         <StoriesElements data={this.state.dataStories} />
         <PostGridElements data={this.state.data} />
       </Aux>
