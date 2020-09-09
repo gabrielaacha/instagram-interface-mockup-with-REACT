@@ -7,6 +7,8 @@ import Aux from "./hoc/Aux";
 import HeaderElements from "./components/Header/HeaderElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
 import PostGridElements from "./components/PostGrid/PostGridElements";
+import PostMenuElements from "./components/PostMenu/PostMenuElements";
+
 import StoriesElements from "./components/Stories/StoriesElements";
 
 export default class App extends Component {
@@ -27,9 +29,9 @@ export default class App extends Component {
     return (
       <Aux>
         <NavigationElements />
-
         <HeaderElements data={this.state.dataStories} />
         <StoriesElements data={this.state.dataStories} />
+        <PostMenuElements />
         <PostGridElements data={this.state.data} />
       </Aux>
     );
