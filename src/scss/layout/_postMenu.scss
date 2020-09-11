@@ -3,9 +3,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: lightgrey 2px solid;
+  //   background-color: lime;
 }
 
 .post-menu-element__category {
   margin: 0 6rem;
   font-size: 1.5rem;
+  //   background-color: lightseagreen;
+  padding-top: 2.7rem;
+  padding-bottom: 2.7rem;
+}
+
+.post-menu-element__category:hover {
+  border-top: black 2px solid;
+  cursor: pointer;
+}
+
+.post-menu-element__category:active {
+  border-top: black 2px solid;
+}
+
+.isActive {
+  border-top: black 2px solid;
 }

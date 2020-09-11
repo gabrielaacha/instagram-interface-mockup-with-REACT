@@ -1,7 +1,7 @@
 .navigation-elements {
   display: flex;
   justify-content: center;
-  border-bottom: grey 1px solid;
+  border-bottom: lightgrey 1px solid;
 }
 
 .navigation-elements__all {
@@ -16,7 +16,7 @@
 .navigation-elements__search {
   height: 2.5rem;
   width: 20rem;
-  border: grey solid 1px;
+  border: grey solid 2px;
   background-color: lightgrey;
 }
 

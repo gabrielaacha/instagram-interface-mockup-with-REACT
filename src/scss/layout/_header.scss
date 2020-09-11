@@ -1,5 +1,5 @@
 .header-elements__all {
-  border: black 1px solid;
+  // border: black 1px solid;
   display: flex;
   height: 40vh;
   padding: 0 20rem;
@@ -7,7 +7,8 @@
 
 .header-element__info {
   width: 70vw;
-  background-color: pink;
+  // background-color: pink;
+  border: black solid 1px;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -19,14 +20,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: black solid 1px;
+  // clip-path: url(image_pimienta_1.jpg);
+
+  // background-image: url("./../../image_pimienta_1.jpg");
+
+  // border: black solid 1px;
 }
 
 .header-element__avatar__content {
-  // clip-path: circle(160px at 160px 160px);
-  // background-image: url("../../image_pimienta_1.jpg");
-  // border: black solid 1px;
-  // background-color: lightsalmon;
+  clip-path: border-box;
+  clip-path: circle(160px at 160px 160px);
+  border: black solid 3px;
+  background-color: lightsalmon;
+  // background-image: url("image_pimienta_1.jpg");
   opacity: 0.5;
   height: 20rem;
   width: 20rem;

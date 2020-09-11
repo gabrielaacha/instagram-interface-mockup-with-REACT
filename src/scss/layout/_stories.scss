@@ -5,7 +5,7 @@
 }
 
 .stories-elements__all {
-  border: black 1px solid;
+  // border: rgb(185, 185, 185) 1px solid;
   display: flex;
   flex-direction: row;
   width: 80vw;
@@ -16,7 +16,7 @@
 .stories-elements__item {
   background-color: burlywood;
   margin: 1rem;
-  border: black 1px solid;
+  // border: black 1px solid;
   height: 10rem;
   clip-path: circle(60px at 90px 70px);
 }
