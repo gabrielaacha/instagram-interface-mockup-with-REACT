@@ -9,17 +9,20 @@ export default function PostMenuElements(props) {
     setActive(!isActive);
   };
 
+  const items = props.data.map((item, i) => {
+    return (
+      <PostMenuElementCategory
+        key={i}
+        info={item}
+        className="isActive, active"
+        onClick={toggleClass}
+      />
+    );
+  });
+
   return (
     <Aux>
-      <div className="post-menu-elements">
-        <PostMenuElementCategory
-          className="isActive, active"
-          onClick={toggleClass}
-        />
-        <PostMenuElementCategory />
-        <PostMenuElementCategory />
-        <PostMenuElementCategory />
-      </div>
+      <div className="post-menu-elements">{items}</div>
     </Aux>
   );
 }

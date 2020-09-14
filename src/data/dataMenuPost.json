@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "category": "category_0",
+    "icon": "faBell"
+  },
+  {
+    "id": 1,
+    "category": "category_1",
+    "icon": "faBell"
+  },
+  {
+    "id": 2,
+    "category": "category_2",
+    "icon": "faBell"
+  },
+  {
+    "id": 3,
+    "category": "category_3",
+    "icon": "faBell"
+  }
+]

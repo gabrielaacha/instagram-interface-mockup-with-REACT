@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Grid from "./data/dataGrid.json";
 import Header from "./data/dataHeader.json";
-// import MenuPost from "./data/dataMenuPost.json";
+import MenuPost from "./data/dataMenuPost.json";
 // import MenuNav from "./data/dataMenuNav.json";
 import Stories from "./data/dataStories.json";
 import Aux from "./hoc/Aux";
@@ -16,11 +16,10 @@ export default class App extends Component {
     super(props);
     this.state = {
       data: Grid,
-      // dataMenuPost: MenuPost,
+      dataMenuPost: MenuPost,
       // dataMenuNav: MenuNav,
       dataHeader: Header,
       dataStories: Stories,
-      // filteredData: [],
     };
   }
 
@@ -32,7 +31,7 @@ export default class App extends Component {
         <NavigationElements />
         <HeaderElements data={this.state.dataHeader} />
         <StoriesElements data={this.state.dataStories} />
-        <PostMenuElements />
+        <PostMenuElements data={this.state.dataMenuPost} />
         <PostGridElements data={this.state.data} />
       </Aux>
     );

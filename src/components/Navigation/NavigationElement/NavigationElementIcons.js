@@ -2,7 +2,6 @@ import React from "react";
 import Aux from "../../../hoc/Aux";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBell,
   faPaperPlane,
   faHome,
   faCompass,
