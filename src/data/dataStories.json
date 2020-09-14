@@ -3,26 +3,26 @@
     "id": 0,
     "name": "pimienta_0",
     "url": "./img/image_pimienta_0.jpg",
-    "text": "text0"
+    "text": "gallery_0"
   },
   {
     "id": 1,
     "name": "pimienta_1",
     "url": "./img/image_pimienta_1.jpg",
-    "text": "text1"
+    "text": "gallery_1"
   },
 
   {
     "id": 2,
     "name": "pimienta_2",
     "url": "./img/image_pimienta_2.jpg",
-    "text": "text2"
+    "text": "gallery_2"
   },
 
   {
     "id": 3,
     "name": "pimienta_3",
     "url": "./img/image_pimienta_3.jpg",
-    "text": "text3"
+    "text": "gallery_3"
   }
 ]

@@ -11,7 +11,7 @@ const storiesElementItem = (props) => {
         <div className="stories-elements__avatar">
           <img alt={name} src={url} className="stories-elements__img" />
         </div>
-        <p>hello</p>
+        <p>{text}</p>
       </div>
     </Aux>
   );

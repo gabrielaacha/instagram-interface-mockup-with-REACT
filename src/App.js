@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Grid from "./data/dataGrid.json";
+import Header from "./data/dataHeader.json";
 // import MenuPost from "./data/dataMenuPost.json";
 // import MenuNav from "./data/dataMenuNav.json";
 import Stories from "./data/dataStories.json";
@@ -8,7 +9,6 @@ import HeaderElements from "./components/Header/HeaderElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
 import PostGridElements from "./components/PostGrid/PostGridElements";
 import PostMenuElements from "./components/PostMenu/PostMenuElements";
-
 import StoriesElements from "./components/Stories/StoriesElements";
 
 export default class App extends Component {
@@ -18,6 +18,7 @@ export default class App extends Component {
       data: Grid,
       // dataMenuPost: MenuPost,
       // dataMenuNav: MenuNav,
+      dataHeader: Header,
       dataStories: Stories,
       // filteredData: [],
     };
@@ -29,7 +30,7 @@ export default class App extends Component {
     return (
       <Aux>
         <NavigationElements />
-        <HeaderElements data={this.state.dataStories} />
+        <HeaderElements data={this.state.dataHeader} />
         <StoriesElements data={this.state.dataStories} />
         <PostMenuElements />
         <PostGridElements data={this.state.data} />

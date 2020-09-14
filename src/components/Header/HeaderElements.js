@@ -4,10 +4,14 @@ import HeaderElementInfo from "./HeaderElement/HeaderElementInfo";
 import Aux from "../../hoc/Aux";
 
 const navigationElements = (props) => {
+  const items = props.data.map((item, i) => {
+    return <HeaderElementAvatar key={i} info={item} />;
+  });
+
   return (
     <Aux>
       <div className="header-elements__all">
-        <HeaderElementAvatar data={props.data} />
+        <div>{items}</div>
         <HeaderElementInfo />
       </div>
     </Aux>
