@@ -7,7 +7,7 @@ const navigationElements = (props) => {
   return (
     <Aux>
       <div className="header-elements__all">
-        <HeaderElementAvatar />
+        <HeaderElementAvatar data={props.data} />
         <HeaderElementInfo />
       </div>
     </Aux>

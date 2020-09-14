@@ -2,23 +2,27 @@
   {
     "id": 0,
     "name": "pimienta_0",
-    "url": "./img/image_pimienta_0.jpg"
+    "url": "./img/image_pimienta_0.jpg",
+    "text": "text0"
   },
   {
     "id": 1,
     "name": "pimienta_1",
-    "url": "./img/image_pimienta_1.jpg"
+    "url": "./img/image_pimienta_1.jpg",
+    "text": "text1"
   },
 
   {
-    "id": 5,
-    "name": "pimienta_5",
-    "url": "./img/image_pimienta_5.jpg"
+    "id": 2,
+    "name": "pimienta_2",
+    "url": "./img/image_pimienta_2.jpg",
+    "text": "text2"
   },
 
   {
-    "id": 6,
-    "name": "pimienta_6",
-    "url": "./img/image_pimienta_6.jpg"
+    "id": 3,
+    "name": "pimienta_3",
+    "url": "./img/image_pimienta_3.jpg",
+    "text": "text3"
   }
 ]

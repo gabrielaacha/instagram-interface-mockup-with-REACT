@@ -1,11 +1,19 @@
 import React from "react";
+import Aux from "../../../hoc/Aux";
 
 const storiesElementItem = (props) => {
-  const { name, url } = props.info;
+  const { name, url, text } = props.info;
   return (
-    <div className="stories-elements__item">
-      <img alt={name} src={url} className="stories-elements__img" />
-    </div>
+    <Aux>
+      {" "}
+      <div className="stories-element__item">
+        {" "}
+        <div className="stories-elements__avatar">
+          <img alt={name} src={url} className="stories-elements__img" />
+        </div>
+        <p>hello</p>
+      </div>
+    </Aux>
   );
 };
 
