@@ -30,8 +30,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielaacha/instagram-interface-mockup-with-REACT.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielaacha/instagram-interface-mockup-with-REACT/issues"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
