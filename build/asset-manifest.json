@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/css/main.9edefd81.chunk.css",
+    "main.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/main.39e60e3a.chunk.js",
+    "main.js.map": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/main.39e60e3a.chunk.js.map",
+    "runtime-main.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/runtime-main.b2c1740e.js",
+    "runtime-main.js.map": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/runtime-main.b2c1740e.js.map",
+    "static/js/2.d702efbb.chunk.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/2.d702efbb.chunk.js",
+    "static/js/2.d702efbb.chunk.js.map": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/2.d702efbb.chunk.js.map",
+    "index.html": "/gabrielaacha/instagram-interface-mockup-with-REACT/index.html",
+    "precache-manifest.ba0c997cb03c8a36c25439a0f2b720f2.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/precache-manifest.ba0c997cb03c8a36c25439a0f2b720f2.js",
+    "service-worker.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/service-worker.js",
+    "static/css/main.9edefd81.chunk.css.map": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/css/main.9edefd81.chunk.css.map",
+    "static/js/2.d702efbb.chunk.js.LICENSE.txt": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/2.d702efbb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2c1740e.js",
+    "static/js/2.d702efbb.chunk.js",
+    "static/css/main.9edefd81.chunk.css",
+    "static/js/main.39e60e3a.chunk.js"
+  ]
+}

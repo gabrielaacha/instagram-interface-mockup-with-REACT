@@ -2,7 +2,6 @@ import React from "react";
 import Aux from "../../../hoc/Aux";
 
 const postGridElementCard = (props) => {
-  console.log(props.info);
   const { name, url } = props.info;
 
   return (
