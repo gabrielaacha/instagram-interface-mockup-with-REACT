@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/css/main.9edefd81.chunk.css",
-    "main.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/main.2673202e.chunk.js",
-    "main.js.map": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/main.2673202e.chunk.js.map",
-    "runtime-main.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/runtime-main.b2c1740e.js",
-    "runtime-main.js.map": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/runtime-main.b2c1740e.js.map",
-    "static/js/2.d702efbb.chunk.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/2.d702efbb.chunk.js",
-    "static/js/2.d702efbb.chunk.js.map": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/2.d702efbb.chunk.js.map",
-    "index.html": "/gabrielaacha/instagram-interface-mockup-with-REACT/index.html",
-    "precache-manifest.ef387e8b3c3ac85255cdca7f44be3549.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/precache-manifest.ef387e8b3c3ac85255cdca7f44be3549.js",
-    "service-worker.js": "/gabrielaacha/instagram-interface-mockup-with-REACT/service-worker.js",
-    "static/css/main.9edefd81.chunk.css.map": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/css/main.9edefd81.chunk.css.map",
-    "static/js/2.d702efbb.chunk.js.LICENSE.txt": "/gabrielaacha/instagram-interface-mockup-with-REACT/static/js/2.d702efbb.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.9edefd81.chunk.css",
+    "main.js": "/static/js/main.2673202e.chunk.js",
+    "main.js.map": "/static/js/main.2673202e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8479515f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8479515f.js.map",
+    "static/js/2.d702efbb.chunk.js": "/static/js/2.d702efbb.chunk.js",
+    "static/js/2.d702efbb.chunk.js.map": "/static/js/2.d702efbb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0f46e74179b581df8a6674a5b91fe3bf.js": "/precache-manifest.0f46e74179b581df8a6674a5b91fe3bf.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9edefd81.chunk.css.map": "/static/css/main.9edefd81.chunk.css.map",
+    "static/js/2.d702efbb.chunk.js.LICENSE.txt": "/static/js/2.d702efbb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2c1740e.js",
+    "static/js/runtime-main.8479515f.js",
     "static/js/2.d702efbb.chunk.js",
     "static/css/main.9edefd81.chunk.css",
     "static/js/main.2673202e.chunk.js"
